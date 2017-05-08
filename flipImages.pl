@@ -11,7 +11,7 @@ use LWP::Simple;
 use POSIX strftime;
 
 $debug = 1;                               # Debug mode - create log file
-$ourIP = "10.0.2.15";	                  # Our IP address
+$ourIP   = "10.0.2.15";	                  # Our IP address
 $baseDir = "/var/www/html/tmp/";          # Needs be writable by 'nobody'
 $baseURL = "http://".$ourIP."/tmp";       # Location on websever
 $mogrify = "/usr/bin/mogrify";            # Path to mogrify
